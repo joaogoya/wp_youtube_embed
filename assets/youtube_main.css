@@ -1,0 +1,29 @@
+
+#videos{
+    width: 100%;
+    display: none;
+}
+#videos .btn-video-modal{
+    position: absolute;
+      width: 100%;
+      height: 100%;
+      border: none;
+}
+#videos .btn-video-modal:hover{
+    cursor: pointer;
+    transition: all linear 1s;
+}
+
+#videos .btn-video-modal img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    transition: all linear 0.5s;
+}
+
+#videos .btn-video-modal:hover img{
+    width: 30%;
+}
+
