@@ -48,9 +48,9 @@ $(document).ready(function () {
 
       //seta controle primeiro clique
       clicked = true;
-
-      //auto play do video a partir do segundo clique
+      
     } else {
+      //auto play do video a partir do segundo clique
       players.forEach(function (el) {
         idPlayer = "player1-" + el.j.i.videoId;
         if (idPlayer == idClique) {
